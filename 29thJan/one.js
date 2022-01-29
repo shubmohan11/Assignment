@@ -3,7 +3,6 @@
 // -> AAYuSH -> Output: 3
 
 
-
 var inp = prompt("Enter a String");
 var a = inp.split("");
 count = 0;
@@ -13,23 +12,26 @@ for (i = 0; i <= a.length; i++) {
 
     switch (character) {
         case "a":
+            case "A":    
             count = count + 1;
             break;
         case "e":
-            count = count + 1;
-            break;
-        case "e":
+            case "E":
             count = count + 1;
             break;
         case "i":
+            case "I":
             count = count + 1;
             break;
         case "o":
+            case "O":
             count = count + 1;
             break;
         case "u":
+            case "U":
             count = count + 1;
             break;
+       
         default:
             break;
     }
