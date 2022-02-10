@@ -1,0 +1,57 @@
+<html>
+<head>
+    <style>
+        input{
+            font-size: 25px;
+
+        }
+        body{
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align: center; color: black; background-color: grey;">College Admission Form</h1>
+    <form action="" style="background-color: grey; color: black; font-size: 30px;">
+        <label for="fullname">FullName : </label><input type="text" placeholder="Enter First-Name" name="firstname"
+            id="fullname" pattern="[a-z]{.}" required>
+        <input type="text" placeholder="Enter last-name" name="lastname" id="fullname" required>
+        <br><br>
+        <label for="father">Father's Name:</label> <input type="text" name="father" id="father"
+            placeholder="Enter father name"><br><br>
+
+        <label for="email">Enter Email-ID:</label><input type="email" name="email" id="email" pattern=".+@gmail\.com"
+            placeholder="Enter Email-ID" required> <br><br>
+        <label for="telephone">Telephone:</label> <input type="tel" name="telephone" id="telephone"
+            placeholder="Enter Mobile number" maxlength="10" pattern="[789][0-9]{9}" required >
+
+
+        <br>
+        <br>
+
+        <label for="dob">Date of Birth:</label><input type="date" id="dob" name="dob" min="1997-05-05" max="2014-05-05" required>
+
+        <br>
+        <br>
+        <label for="textarea">Introduce Yourself</label>
+        <br>
+        <br><textarea name="textarea" id="" cols="30" rows="10" name="textarea" placeholder="Introduction"
+            style="resize: none;"></textarea>
+
+        <br><br>
+
+        <label for="month">SSC Passing year: </label><input type="month" max="2016-02" name="month" min="2010-02" required>
+
+        <br><br>
+    
+        <input type="reset" name="reset" id="reset">
+        <input type="submit" >
+      
+
+
+    </form>
+</body>
+
+</html>
+
