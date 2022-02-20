@@ -1,0 +1,51 @@
+.header{
+    display: flex;
+    align-items: center;
+    float:left;
+    margin-right: 100px;
+}
+.space{
+    margin-left: 10px;
+}
+.size{
+    width: 500px;
+    height:35px;
+}
+.Youtube-align{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: large;
+}
+.gap{
+    margin-right: 20px;
+    margin-left:20px;
+}
+.header3{
+    display: flex;
+    align-items: center;
+    float:right; 
+}
+button{
+    margin-left: 10px;
+}
+.categories{
+    margin-left: 200px;
+}
+.none{
+margin-left: -10px;
+background-color: black;
+}
+.video{
+    margin-left: 200px;
+    width: 1200px;
+    display:flex ;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 350px;
+    margin-left: 10px;
+}
