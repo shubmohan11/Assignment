@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>
+        Gallery
+    </title>
+    
+   <link rel="stylesheet" href="./assignment2.css">
+</head>
+
+<body>
+    <h1>Avengers Gallery</h1>
+    <table border="2">
+        <tr>
+            <td><img src="https://cdn.britannica.com/73/182873-050-E1C686F4/Chris-Hemsworth-Thor-Thor-The-Dark-World.jpg"
+                    alt="Thor"><p id="thor">0</p> <button  onclick="like(1,'thor');" ><img src="./thumb-up.png" class="thumb-up" ></button> <button class="thums_down" onclick="dislike(1,'thor')"><img src="./thumb-down.png" alt="" class="thumbs-down" ></button></td>
+
+
+
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJoQDgg_-FLN4kunU_L8CyykpYtNzdSrPw4A&usqp=CAU"
+                    alt="Ironman"><p id="iron">0</p> <button class="thums_up" onclick="like(2,'iron');"><img src="./thumb-up.png" class="thumb-up" ></button> <button class="thums_down"  onclick="dislike(2,'iron');"><img src="./thumb-down.png" alt="" class="thumbs-down"></button></td>
+
+
+
+
+            <td><img src="https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2020/05/30/Pictures/_19298b80-a255-11ea-b043-295af9ca78f2.jpg"
+                    alt="hulk"><p id='hulk'>0</p> <button class="thums_up" onclick="like(3,'hulk');"><img src="./thumb-up.png" class="thumb-up" ></button> <button class="thums_down" onclick="dislike(3,'hulk')"><img src="./thumb-down.png" alt="" class="thumbs-down" ></button></td>
+        </tr>
+
+        <tr>
+            <td><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/spider-man-movies-in-order-index-1631199371.jpeg?crop=0.565xw:1.00xh;0.435xw,0&resize=640:*"
+                    alt=""><p id="spider">0</p> <button class="thums_up" onclick="like(4,'spider');"><img src="./thumb-up.png" class="thumb-up" ></button> <button class="thums_down" onclick="dislike(4,'spider')"><img src="./thumb-down.png" alt="" class="thumbs-down"></button></td>
+
+
+            <td><img src="https://cdn.mos.cms.futurecdn.net/5z9Tg5GxgKLVXe2Qs2YXb3.jpg" alt="captain-america"><p id="captain-america">0</p> <button class="thums_up"><img src="./thumb-up.png" class="thumb-up" onclick="like(5,'captain-america');"></button> <button class="thums_down" onclick="dislike(5,'captain-america')"><img src="./thumb-down.png" alt="" class="thumbs-down"></button></td>
+            <td><img src="https://www.cnet.com/a/img/CdhHcC-rmGDpraMrIQg00vQhils=/940x0/2021/05/03/b5d89184-2ef3-4e3e-9031-be258f108f93/doctor-strange-2.jpg"
+                    alt="Dr Strange"><p id="Strange">0</p> <button class="thums_up" onclick="like(6,'Strange');"><img src="./thumb-up.png" class="thumb-up" ></button> <button class="thums_down" onclick="dislike(6,'Strange')"><img src="./thumb-down.png" alt="" class="thumbs-down"></button></td>
+        </tr>
+        <tr>
+            <td><img src="https://cdn.vox-cdn.com/thumbor/yIZZYqnpghp6uqr4dZaCl-VDfP4=/0x0:915x610/1200x800/filters:focal(381x34:527x180)/cdn.vox-cdn.com/uploads/chorus_image/image/62662374/boseman.0.jpg"
+                    alt="panther"><p id="panther">0</p> <button class="thums_up" onclick="like(7,'panther');"><img src="./thumb-up.png" class="thumb-up" ></button> <button class="thums_down" onclick="dislike(7,'panther')"><img src="./thumb-down.png" alt="" class="thumbs-down"></button></td>
+
+
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Scarlett_Johansson_as_Black_Widow.jpg/220px-Scarlett_Johansson_as_Black_Widow.jpg"
+                    alt="widow"><p id="widow">0</p> <button class="thums_up" onclick="like(8,'widow');"><img src="./thumb-up.png" class="thumb-up" ></button> <button class="thums_down" onclick="dislike(8,'widow')"><img src="./thumb-down.png" alt="" class="thumbs-down"></button></td>
+
+
+            <td><img src="https://cdn.vox-cdn.com/thumbor/xddVMltvqjB3PEgF4OnOQifZvZs=/0x0:1200x696/1200x800/filters:focal(535x82:727x274)/cdn.vox-cdn.com/uploads/chorus_image/image/58843699/baby-groot-guardians.0.0.jpg"
+                    alt="groot"> <p id="groot">0</p><button class="thums_up" onclick="like(9,'groot');"><img src="./thumb-up.png" class="thumb-up" ></button> <button class="thums_down" onclick="dislike(9,'groot')"><img src="./thumb-down.png" alt="" class="thumbs-down"></button></td>
+        </tr>
+    </table>
+    <script src="./assignment2.js"></script>
+</body>
+
+</html>
