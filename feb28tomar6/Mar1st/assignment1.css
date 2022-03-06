@@ -1,0 +1,93 @@
+body{
+    
+    color: grey;
+    /* background-image: url(./Screenshot\ 2022-03-02\ at\ 12.56.45\ AM.png); */
+    background-image: url("https://www.teahub.io/photos/full/95-959274_black-background-blue-abstract.jpg");
+    background-color: black;
+    margin: 0px;
+    
+
+}
+p{
+    font-size: 60px;
+    color: red;
+}
+
+
+.headings{
+    margin-left: 300px;
+    font-size: 200%;
+
+}
+.all-fields{
+    margin-left: 300px;
+    width: 800px;
+/* display: inline-block;
+justify-content: center; */
+    
+}
+
+.name_div {
+    float: left;
+    width: 50%;
+}
+.username{
+    float: right;
+    width: 50%;
+  
+}
+
+input{
+    font-size: 30px;
+    background-color: grey;
+  
+}
+
+h3{
+    font-size: 30px;
+}
+
+.email{
+    float: left;
+    width: 50%; 
+}
+
+.dob{
+    float: right;
+    width: 50%;
+}
+
+.password{
+    float: left;
+    width: 50%; 
+}
+
+.confirm-password{
+    float: right;
+    width: 50%;
+}
+
+.acknowledge{
+   width: 1000px;
+   height: 200px;
+}
+
+
+button{
+    margin-top: 40px;
+    font-size: 200%;
+    background-color: grey;
+}
+
+.check-ack{
+    margin-top: 40px;
+    font-size: 200%;
+
+}
+
+.check-ack > input{
+width: 30px;
+  height: 30px;
+ 
+}
+
