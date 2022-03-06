@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button{
+    font-size: 40px;
+   background-color: black;
+   color: white;
+}
+
+.popup{
+    position: fixed;
+    top: 40%;
+    /* top: 0px; to fix in top */
+    width: 100vw;
+    background-color: red;
+    border: 1px solid grey;
+    border-radius: 100px;
+    text-align: center;
+
+}
+
+.popup h1{
+    text-align: center;
+ 
+    
+}
+
+
+.d-none{
+    display: none;
+}
+
+.d-initial{
+    display: initial;
+}
+
+
+.popup button{
+    background-color: black;
+    color: white;
+    border: transparent;
+}
+
+
+/* button:hover{
+    background-color: aqua;
+} */
+
+
+
