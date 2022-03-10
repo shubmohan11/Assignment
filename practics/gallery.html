@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="./gallery.css">
+</head>
+
+<body id="bodys">
+<h1>Photo Gallery</h1>
+<button id="button-close" class="button-closer" onclick="closeImage();"> <img src="./close.png" alt=""></button>
+
+
+
+    <div class="img-container" id="mainpage">
+        <div class="rowimg" >
+
+
+            <div class="photo-div">
+                <img src="https://miro.medium.com/max/8400/1*j7uwVHCoTLiL0u4_4iLCqw.jpeg" onclick="zoomImage('thor1');"
+                    id="thor1" class="imagedimension">
+                <p id="thor">0</p> <button onclick="like(1,'thor');"><img src="./thumb-up.png"
+                        class="thumb-up"></button> <button class="thums_down" onclick="dislike(1,'thor')"><img
+                        src="./thumb-down.png" alt="" class="thumbs-down"></button>
+            </div>
+
+
+
+
+
+            <div class="photo-div">
+                <img src="https://media.cntraveler.com/photos/60596b398f4452dac88c59f8/4:5/w_2132,h_2665,c_limit/MtFuji-GettyImages-959111140.jpg"
+                    onclick="zoomImage('iron1');" id="iron1" class="imagedimension">
+                <p id="iron">0</p> <button class="thums_up" onclick="like(2,'iron');"><img src="./thumb-up.png"
+                        class="thumb-up"></button> <button class="thums_down" onclick="dislike(2,'iron');"><img
+                        src="./thumb-down.png" alt="" class="thumbs-down"></button>
+            </div>
+
+
+
+            <div class="photo-div">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGLOeJE5qXE0B2n1xlEFGnLqEBrjgpT4qSfQ&usqp=CAU"
+                    onclick="zoomImage('hulk1');" id="hulk1" class="imagedimension">
+                <p id='hulk'>0</p> <button class="thums_up" onclick="like(3,'hulk');"><img src="./thumb-up.png"
+                        class="thumb-up"></button> <button class="thums_down" onclick="dislike(3,'hulk')"><img
+                        src="./thumb-down.png" alt="" class="thumbs-down"></button>
+            </div>
+
+        </div>
+
+
+        <div class="rowimg">
+
+            <div class="photo-div">
+                <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-907914534-1590070809.jpg"
+                    onclick="zoomImage('spider1');" id="spider1" class="imagedimension">
+                <p id="spider">0</p> <button class="thums_up" onclick="like(4,'spider');"><img src="./thumb-up.png"
+                        class="thumb-up"></button> <button class="thums_down" onclick="dislike(4,'spider')"><img
+                        src="./thumb-down.png" alt="" class="thumbs-down"></button>
+            </div>
+
+            <div class="photo-div">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6HEf3NPavc-94jfMsi6RDcf7Mt6S4hQvx6Q&usqp=CAU"
+                    onclick="zoomImage('captain-america1');" id="captain-america1" class="imagedimension">
+                <p id="captain-america">0</p> <button class="thums_up"><img src="./thumb-up.png" class="thumb-up"
+                        onclick="like(5,'captain-america');"></button> <button class="thums_down"
+                    onclick="dislike(5,'captain-america')"><img src="./thumb-down.png" alt=""
+                        class="thumbs-down"></button>
+            </div>
+
+            <div class="photo-div">
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9xl1gsBb0FdgqREsrNXDbAzlB7p5C0j60uA&usqp=CAU"
+                    onclick="zoomImage('Strange1');" id="Strange1" class="imagedimension">
+                <p id="Strange">0</p> <button class="thums_up" onclick="like(6,'Strange');"><img src="./thumb-up.png"
+                        class="thumb-up"></button> <button class="thums_down" onclick="dislike(6,'Strange')"><img
+                        src="./thumb-down.png" alt="" class="thumbs-down"></button>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="rowimg">
+
+            <div class="photo-div">
+                <img src="https://img.staticmb.com/mbcontent//images/uploads/2021/7/most-beautiful-houses-in-the-world.jpg"
+                    onclick="zoomImage('panther1');" id="panther1" class="imagedimension">
+                <p id="panther">0</p> <button class="thums_up" onclick="like(7,'panther');"><img src="./thumb-up.png"
+                        class="thumb-up"></button> <button class="thums_down" onclick="dislike(7,'panther')"><img
+                        src="./thumb-down.png" alt="" class="thumbs-down"></button>
+            </div>
+
+
+
+            <div class="photo-div">
+                <img src="https://newsmeter.in/h-upload/2021/01/27/292027-indian-peacock.webp"
+                    onclick="zoomImage('widow1');" id="widow1" class="imagedimension">
+                <p id="widow">0</p> <button class="thums_up" onclick="like(8,'widow');"><img src="./thumb-up.png"
+                        class="thumb-up"></button> <button class="thums_down" onclick="dislike(8,'widow')"><img
+                        src="./thumb-down.png" alt="" class="thumbs-down"></button>
+            </div>
+
+            <div class="photo-div">
+                <img src="https://akm-img-a-in.tosshub.com/businesstoday/images/photo_gallery/201709/london_091217042153.jpg"
+                    onclick="zoomImage('groot1');" id="groot1" class="imagedimension">
+                <p id="groot">0</p><button class="thums_up" onclick="like(9,'groot');"><img src="./thumb-up.png"
+                        class="thumb-up"></button> <button class="thums_down" onclick="dislike(9,'groot')"><img
+                        src="./thumb-down.png" alt="" class="thumbs-down"></button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="./gallery.js"></script>
+</body>
+
+</html>
