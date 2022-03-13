@@ -1,0 +1,271 @@
+body{
+   margin: 0px;
+   display: flex;
+   justify-content: center;
+
+  
+}
+.screen{
+    background-color: white;
+    height: 600px;
+    width: 350px; 
+    margin-top: 200px;
+    overflow-y: scroll;
+    border: 1px solid black;
+    border-bottom: transparent;
+}
+.nav-right {
+    width: 70%;
+    float: right;
+    margin-right: 5px;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;    
+}
+
+
+.nav-right img{
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+
+h1{
+    float: left;
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+  
+   
+}
+
+
+.nav-bar{
+    margin-top: 10px;
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+    height: 40px;
+    background-color: white;
+  
+}
+
+.pic-caption{
+  
+   display: block;
+   /* margin-top: 50px; */
+   float: left;
+}
+
+ span{
+
+  text-align: left;
+  font-size: 30px;
+  
+}
+
+.title{
+    margin-top: 50px;
+}
+
+.side-buttons img{
+    width: 40px;
+}
+
+
+
+.title img{
+    width: 30px;
+    border-radius: 50%;
+}
+
+.main-image img{
+    width: 100%;
+}
+
+.like-comment img{
+    float: left;
+}
+
+
+.save img{
+    float: right;
+}
+
+
+
+
+ 
+.nav-buttons{
+    display: flex;
+    /* margin-top: 100px; */
+    display: flex;
+    justify-content: center;
+    /* position: fixed; */
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+
+    /* bottom: 185px; */
+    border: 1px solid black;
+    background-color: white;
+    
+  
+   
+} 
+
+
+
+/* .nav-buttons{
+    display: flex;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+
+    bottom: 185px;
+    bottom: 0px;
+    border: 2px solid black;
+    border-top-color: transparent;
+    
+   
+} */
+
+.nav-buttons img{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    
+   
+}
+
+
+.nav-buttons button{
+    /* width: 48.5px; */
+    width: 100%;
+    /* height: 50px; */
+    display: flex;
+    justify-content: space-between;
+    margin-right: 21px;
+    border: transparent;
+    background-color: white;
+    /* border-radius: 50%; */
+    
+   
+}
+
+ #profile{
+    border-radius: 50%;
+}
+
+.main-searchpage{
+    display: none;
+ 
+    
+}
+
+
+
+.search-page{
+    display: flex;
+    display: inline-block;
+    margin-top: 10px;
+   
+    
+}
+
+
+.search-page img{
+    width: 20px;
+    float: left;
+    position: relative;
+    left: 30px;
+    top: 10px;
+
+
+}
+
+.search-page input{
+    width: 300px;
+    height: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+
+
+.image-bar{
+    margin-top: 30px;
+}
+
+
+.image-display{
+    display: flex;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.image-display img{
+    width: 100px;
+   height: 90px;
+   display: flex;
+   justify-content: space-between;
+   border: 2px solid whitesmoke;
+
+}
+
+.d-none{
+    display: none;
+}
+
+
+.d-initial{
+    display: initial;
+}
+
+
+
+.reels-video img{
+    width: 100%;
+    height: 550px;
+}
+
+
+.reelspage{
+    display: none;
+}
+
+
+.likes-photo img{
+    width: 100%;
+    height: 560px;
+}
+
+.likespage{
+    display: none;
+}
+
+
+.profile-page{
+    display: none;
+}
+
+
+.profile-pic img{
+    width: 100%;
+}
+
+
+
+
