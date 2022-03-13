@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    background-image: url("https://vip-go.shutterstock.com/blog/wp-content/uploads/sites/5/2020/05/shutterstock_625937792.jpg?w=750");
+}
+
+.mainbody{
+    display: block;
+    justify-content: center;
+ text-align: center;
+ margin-top: 400px;
+
+}
+
+.mainbody span{
+    font-size: 100px;
+    background-color: cornflowerblue;
+}
+
+.mainbody button{
+    width: 150px;
+    height: 100px;
+    font-size: 20px;
+  background-color: darkkhaki;
+
+}
+
