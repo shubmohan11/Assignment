@@ -17,7 +17,7 @@ const handle_data = function (res) {
 
   container.innerHTML="";
 
-  for (let i = 0; i < user_arr.length; i += 1) {
+  for (let i = 0; i < 10; i += 1) {
     const single_user = user_arr[i].images.original.url;
     const new_li_elem = document.createElement('img');
     new_li_elem.style.width = "200px";
